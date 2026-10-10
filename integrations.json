@@ -1,0 +1,11 @@
+{
+  "studybison": {
+    "enabled": false,
+    "mode": "proxy",
+    "proxyPath": "/api/studybison",
+    "directBase": "https://cw.studybison.in/api/batches",
+    "cacheMinutes": 30,
+    "credit": "Content listed from StudyBison (cw.studybison.in)",
+    "_notes": "Keep enabled=false until StudyBison has confirmed in writing that this integration and reuse of its data/media links is permitted. When confirmed: set enabled=true here AND set STUDYBISON_AUTHORIZED=true in the server environment (the proxy refuses to fetch otherwise). mode: 'proxy' (same-origin /api/studybison) or 'direct' (browser fetch; only works if StudyBison sends CORS headers for this origin)."
+  }
+}

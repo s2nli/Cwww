@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/api/studybison/:slug", "destination": "/api/studybison?slug=:slug" }
+  ]
+}
